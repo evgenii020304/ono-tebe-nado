@@ -26,16 +26,16 @@
   </nav>
   <a id="main-page" class="header__logo">
     <img
-        class="header__logo-image"
-        src="./images/logo-black.svg"
-        alt="Логотип проекта"
+      class="header__logo-image"
+      src="./images/logo-black.svg"
+      alt="Логотип проекта"
     />
   </a>
   <address class="address address__position">
-    <a class="address__phone" href="tel:+99995555555">
+    <a class="address__link" href="tel:+99995555555">
       +9 999 555 5555
     </a>
-    <a class="address__email" href="mailto:info@sobaka.ge">
+    <a class="address__link" href="mailto:info@sobaka.ge">
       info@sobaka.ge
     </a>
     <p class="address__location">
@@ -45,25 +45,17 @@
 </header>
 <main>
   <section class="cover">
-    <div class="overlay">
-      <h1 class="cover__title letter-spacing-extended">
-        <span class="aligned-text aligned-text_left">Оно</span>
-        <span class="aligned-text aligned-text_center"
-        >Теб<span class="no-letter-spacing">е</span></span
-        >
-        <span class="aligned-text aligned-text_right"
-        >Над<span class="no-letter-spacing">о</span></span
-        >
-      </h1>
-      <div class="cover__description">
-            <p class="cover__description-text">
-              Аукцион вещей, в которые никто не вери<span
-                class="no-letter-spacing"
-            >л</span
-            >
-            </p>
-        <button class="bet-button" type="button">Сделать ставку</button>
-      </div>
+    <div class="overlay"></div>
+    <h1 class="cover__title letter-spacing-extended">
+      <span class="aligned-text aligned-text_left">Оно</span>
+      <span class="aligned-text aligned-text_center">Теб<span class="no-letter-spacing">е</span></span>
+      <span class="aligned-text aligned-text_right">Над<span class="no-letter-spacing">о</span></span>
+    </h1>
+    <div class="cover__description">
+      <p class="cover__description-text">
+        Аукцион вещей, в которые никто не вери<span class="no-letter-spacing">л</span>
+      </p>
+      <button class="bet-button" type="button">Сделать ставку</button>
     </div>
   </section>
   <section class="lots">
@@ -71,8 +63,9 @@
     <ul class="lots__card-list">
       <li class="lots__card-list-item">
         <article class="card card_type_film">
-          <a href="#0">
-            <div class="overlay card__content">
+          <a class="card__link" href="#0">
+            <div class="overlay"></div>
+            <div class="card__content">
               <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
@@ -87,8 +80,9 @@
       </li>
       <li class="lots__card-list-item">
         <article class="card card_type_book">
-          <a href="#0">
-            <div class="overlay card__content">
+          <a class="card__link" href="#0">
+            <div class="overlay"></div>
+            <div class="card__content">
               <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного
                 агента
@@ -107,8 +101,9 @@
       </li>
       <li class="lots__card-list-item">
         <article class="card card_type_picture">
-          <a href="#0">
-            <div class="overlay card__content">
+          <a class="card__link" href="#0">
+            <div class="overlay"></div>
+            <div class="card__content">
               <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
@@ -128,9 +123,9 @@
   <section class="about">
     <div class="about__logo">
       <img
-          class="about__logo-image"
-          src="./images/logo-white.svg"
-          alt="Логотип проекта"
+        class="about__logo-image"
+        src="./images/logo-white.svg"
+        alt="Логотип проекта"
       />
     </div>
     <div class="about__column">
@@ -156,10 +151,10 @@
 </main>
 <footer class="footer">
   <address class="address">
-    <a class="address__phone" href="tel:+99995555555">
+    <a class="address__link" href="tel:+99995555555">
       +9 999 555 5555
     </a>
-    <a class="address__email" href="mailto:info@sobaka.ge">
+    <a class="address__link" href="mailto:info@sobaka.ge">
       info@sobaka.ge
     </a>
     <p class="address__location">
@@ -169,7 +164,7 @@
   <nav class="footer__menu">
     <ul class="footer__menu-list">
       <li class="footer__menu-list-item">
-        <a class="footer__menu-link_active" href="#main-page">главная</a>
+        <a class="footer__menu-link footer__menu-link_active" href="#main-page">главная</a>
       </li>
       <li class="footer__menu-list-item">
         <a class="footer__menu-link" href="#view-lots">посмотреть лоты</a>
